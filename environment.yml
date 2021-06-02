@@ -1,0 +1,14 @@
+name: citing-excerpts
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pip=21.1.2
+  - python=3.8.10
+  - pip:
+    - ipykernel
+    - ipython
+    - six
+    - tornado
+    - beautifulsoup4
+    - requests
